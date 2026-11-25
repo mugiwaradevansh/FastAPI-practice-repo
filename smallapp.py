@@ -15,5 +15,7 @@ def hello(name:str):
 def models():
     return["1","2","3"]
 
-
+@app.post("/echo")
+def echo(payload: Any = Body(default=None)):
+    return payload
 
