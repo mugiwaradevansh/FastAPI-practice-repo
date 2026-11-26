@@ -348,7 +348,9 @@ dependencies = [
     { name = "aiosqlite" },
     { name = "fastapi" },
     { name = "fastapi-users", extra = ["sqlalchemy"] },
+    { name = "httpx" },
     { name = "imagekitio" },
+    { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "uvicorn", extra = ["standard"] },
 ]
@@ -358,7 +360,9 @@ requires-dist = [
     { name = "aiosqlite", specifier = ">=0.22.1" },
     { name = "fastapi", specifier = ">=0.165.0" },
     { name = "fastapi-users", extras = ["sqlalchemy"], specifier = ">=15.0.5" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "imagekitio", specifier = ">=5.13.0" },
+    { name = "pydantic", specifier = ">=2.14.4" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.54.0" },
 ]
